@@ -1,0 +1,7 @@
+<ul>
+  <li><%= link_to_unless_current "Home", welcome_index_path %></li>
+  <li><%= link_to_unless_current "Dogs", dogs_index_path %></li>
+  <li><%= link_to_unless_current "Gallery", gallery_index_path %></li>
+  <li><a class="active" href="#contact">Contact</a></li>
+  <li style="float:right"><%= link_to_unless_current "About", about_index_path %></li>
+</ul>
