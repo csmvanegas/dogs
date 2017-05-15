@@ -1,7 +1,35 @@
-<ul>
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css"><ul>
   <li><%= link_to_unless_current "Home", welcome_index_path %></li>
   <li><a class="active" href="#dogs">Dogs</a></li>
   <li><%= link_to_unless_current "Gallery", gallery_index_path %></li>
   <li><%= link_to_unless_current "Contact", contact_index_path %></li>
   <li style="float:right"><%= link_to_unless_current "About", about_index_path %></li>
 </ul>
+<div class="w3-container">
+  <h2>Most Popular Dog Breeds 2017</h2>
+
+<h4> First image: Siberian Husky</h4>
+<p>The Siberian Husky is a medium size working dog breed that originated in north-eastern Siberia, Russia. The breed belongs to the Spitz genetic family.</p>
+<h4> Second image: Dachshund </h4>
+<p>The dachshund is a short-legged, long-bodied, hound-type dog breed. The standard size dachshund was developed to scent, chase, and flush out badgers and other burrow-dwelling animals, while the miniature.</p>
+<h4> Third image: Golden Retriever</h4>
+<p>The Golden Retriever is a large-sized breed of dog bred as gun dogs to retrieve shot waterfowl such as ducks and upland game birds during hunting and shooting parties.</p>
+</div>
+
+<div class="w3-content" style="max-width:1200px">
+  <img class="mySlides" src="http://www.creativehdwallpapers.com/uploads/large/dog/husky-dogs-images-wallpaper.jpg" style="width:100%">
+  <img class="mySlides" src="https://il3.picdn.net/shutterstock/videos/4373705/thumb/2.jpg" style="width:100%">
+  <img class="mySlides" src="http://cdn.wallpapersafari.com/34/70/HxjBnf.jpg" style="width:100%">
+
+  <div class="w3-row-padding w3-section">
+    <div class="w3-col s4">
+      <img class="demo w3-opacity w3-hover-opacity-off" src="http://www.creativehdwallpapers.com/uploads/large/dog/husky-dogs-images-wallpaper.jpg" style="width:100%" onclick="currentDiv(1)">
+    </div>
+    <div class="w3-col s4">
+      <img class="demo w3-opacity w3-hover-opacity-off" src="https://il3.picdn.net/shutterstock/videos/4373705/thumb/2.jpg" style="width:100%" onclick="currentDiv(2)">
+    </div>
+    <div class="w3-col s4">
+      <img class="demo w3-opacity w3-hover-opacity-off" src="http://cdn.wallpapersafari.com/34/70/HxjBnf.jpg" style="width:100%" onclick="currentDiv(3)">
+    </div>
+  </div>
+</div>
