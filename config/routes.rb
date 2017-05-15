@@ -6,7 +6,7 @@ Rails.application.routes.draw do
   get 'gallery/index'
 
   get 'dogs/index'
-
+  resources :articles
   get 'welcome/index'
 
   # The priority is based upon order of creation: first created -> highest priority.
